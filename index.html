@@ -5,7 +5,7 @@
   <link rel="stylesheet" href="./css/home.css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Portfolio</title>
+  <title>Lebel Agency</title>
 
   <!--font google-->
   <link rel="stylesheet" href="./styles.css">
@@ -22,7 +22,7 @@
 <header>
 <nav>
     <ul class="sidebar">
-      <li><a href="#"><i class="fas fa-times"></i></a></li>
+      <li onclick=hideSidebar()><a href="#"><i class="fas fa-times"></i></a></li>
       <li><a href="./index.html">Home</a></li>
       <li><a href="./destinations.html">Destinations</a></li>
       <li><a href="./packages.html">Packages</a></li>
@@ -32,13 +32,11 @@
 
     <ul class="menu">
       <li><a href="#">Leben <span>Travels</span></a></li>
-      <li class="hideOnMobile"><a href="./index.html">Home</a></li>
       <li class="hideOnMobile"><a href="./destinations.html">Destinations</a></li>
       <li class="hideOnMobile"><a href="./packages.html">Packages</a></li>
       <li class="hideOnMobile"><a href="./about.html">About</a></li>
       <li class="hideOnMobile"><a href="./contact.html">Contact</a></li>
-
-      <li class="menu-button"><a href="#"><i class="fas fa-bars"></i></a></li>
+      <li class="menu-button" onclick=showSidebar()><a href="#"><i class="fas fa-bars"></i></a></li>
     </ul>
   </nav>
 </header>
@@ -161,5 +159,9 @@
   <p>&copy; 2026 Leben Travels Agency. All rights reserved.</p>
 </footer>
 
+
+<script src="./script-files/script.js">
+
+</script>
 </body>
 </html>
